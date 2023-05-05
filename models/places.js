@@ -7,9 +7,9 @@ const placeSchema = new mongoose.Schema({
     city: { type: String, default: 'Anytown' },
     state: { type: String, default: 'USA' },
     founded: Number
-})
+});
 
-module.exports = mongoose.model('Place', placeSchema)
+module.exports = mongoose.model('Place', placeSchema);
 
 
 
